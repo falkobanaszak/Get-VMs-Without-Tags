@@ -37,7 +37,7 @@
 # Path to the file which gets send as an attachement
 # Adjust the variable $WorkingPath to your needs !
 $FileToAttach = "$WorkingPath\VMsWithoutTags_$(Get-Date -format dd_MM_yyyy_hh_mm_ss).txt"
-$WorkingPath = "C:\VMsWithoutTags"
+$WorkingPath = "C:\VMsWithoutTags\"
 
 # E-Mail settings
 # Adjust all these mail variables to your needs except the $Attachement variable !
