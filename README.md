@@ -1,5 +1,6 @@
 # Get-VMs-Without-Tags
 
+
 ## Introduction to vSphere Tags
 
 Using vSphere tags in your VMware environment is no longer a secret. It gives you flexibility, easier management and control of your virtual machines.
@@ -27,3 +28,19 @@ The script does the following:
 My recommendation is to setup a scheduled task which runs once or twice a day to check your environment.
 
 **The script:**
+
+Here is the script: [Get VMs without Tags](https://github.com/falkobanaszak/Get-VMs-Without-Tags/blob/master/Get_VMs_without_Tags.ps1)
+## How to set it up for your environment
+
+Basically, you simply need to add all the relevant information in the variables which I framed in red in the below screenshot.
+
+![How to setup the script](https://github.com/falkobanaszak/Get-VMs-Without-Tags/blob/master/environment_setup.png)
+
+-   the path where you want to save the outputs
+-   the e-mail settings
+-   your vSphere credentials and connection
+-   your desired tag category
+
+As always, thanks for reading and have a nice day !
+
+If you encounter errors or if you want to share feedback, don't hesitate to contact me !
