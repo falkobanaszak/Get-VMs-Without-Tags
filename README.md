@@ -41,6 +41,4 @@ Basically, you simply need to add all the relevant information in the variables 
 -   your vSphere credentials and connection
 -   your desired tag category
 
-As always, thanks for reading and have a nice day !
-
 If you encounter errors or if you want to share feedback, don't hesitate to contact me !
